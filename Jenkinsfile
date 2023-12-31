@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/rameshkumarvermagithub/uber-clone.git'
+                git branch: 'main', url: 'https://github.com/RAMESHKUMARVERMAGITHUB/Candycrush.git'
             }
         }
         stage("Sonarqube Analysis "){
